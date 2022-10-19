@@ -21,8 +21,15 @@ const a = prompt("Один из последних просмотренных ф
 console.log(personalMovieDB);
 */
 
-if (4 > 10){
-    console.log(false)
+
+const numb = 50;
+
+if (numb < 10){
+    console.log(false);
+} else if (numb === 50) {
+    console.log(true);
 } else {
-    console.log(true)
+    console.log('ERROR');
 }
+
+(numb === 50) ? console.log ('YES') : console.log('NO');
