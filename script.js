@@ -22,14 +22,8 @@ console.log(personalMovieDB);
 */
 
 
-const numb = 50;
+let numb = 50;
 
-if (numb < 10){
-    console.log(false);
-} else if (numb === 50) {
-    console.log(true);
-} else {
-    console.log('ERROR');
-}
 
-(numb === 50) ? console.log ('YES') : console.log('NO');
+
+
