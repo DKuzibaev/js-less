@@ -1,6 +1,6 @@
 "use strict";
 
-let numbresOfFilms = +prompt("Сколько фильмов уже смотрели?", ' ');
+/*let numbresOfFilms = +prompt("Сколько фильмов уже смотрели?", ' ');
 
 const personalMovieDB = {
     count: numbresOfFilms,
@@ -19,4 +19,10 @@ const a = prompt("Один из последних просмотренных ф
       personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+*/
 
+if (4 > 10){
+    console.log(false)
+} else {
+    console.log(true)
+}
