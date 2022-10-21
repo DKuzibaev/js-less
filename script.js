@@ -22,8 +22,11 @@ console.log(personalMovieDB);
 */
 
 
-let numb = 50;
+const arr = [3, 5, 8, 16, 20, 23, 50];
+const result = [];
 
-
-
-
+for(let i = 3; i <= 50; i++) {
+    if (i % 3 == 0)
+    result[i - 50] = i++;
+    console.log(result);
+}

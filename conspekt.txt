@@ -193,3 +193,14 @@ for (let i = 1; i < 10; i++){
         break;
     }
 }
+
+
+Заполнение массива с помощью цикла: 
+
+    const arrayOfNumbers = [];
+
+    for (let i = 5; i < 11; i++) {
+        arrayOfNumbers[i - 5] = i;
+    }
+
+    console.log(arrayOfNumbers);
